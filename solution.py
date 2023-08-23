@@ -1,21 +1,12 @@
 # Task 1
-a = int(input("Enter number: "))
-if a % 2 == 0:
-    print("Even number")
-else:
-    print("Odd number")
-
-b = int(input("Enter number: "))
-if b % 2 == 0:
-    print("Even number")
-else:
-    print("Odd number")
-
-c = int(input("Enter number: "))
-if c % 2 == 0:
-    print("Even number")
-else:
-    print("Odd number")
+x = 0
+for x in range(0, 3):
+    a = int(input("Enter number: "))
+    if a % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+x += 1
 
 
 # Task 2
